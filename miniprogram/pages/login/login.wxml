@@ -5,14 +5,14 @@
       <view class="weui-cells__title">用户名</view>
       <view class="weui-cells weui-cells_after-title">
         <view class="weui-cell weui-cell_input">
-          <input class="weui-input" maxlength="32" placeholder="在此输入用户名" />
+          <input class="weui-input" name="username" maxlength="32" placeholder="在此输入用户名" />
         </view>
       </view>
 
       <view class="weui-cells__title">密码</view>
       <view class="weui-cells weui-cells_after-title">
         <view class="weui-cell weui-cell_input">
-          <input class="weui-input" maxlength="32" placeholder="在此输入密码" />
+          <input class="weui-input" name="password" maxlength="32" placeholder="在此输入密码" />
         </view>
       </view>
     </view>
