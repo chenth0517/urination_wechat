@@ -1,0 +1,3 @@
+<!--miniprogram/pages/map/map.wxml-->
+<text>miniprogram/pages/map/map.wxml</text>
+<map bindmarkertap="markertap" longitude="南京经度" latitude="南京纬度"></map>

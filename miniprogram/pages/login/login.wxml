@@ -1,0 +1,23 @@
+<!--pages/login/login.wxml-->
+
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="page-section">
+      <view class="weui-cells__title">用户名</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" maxlength="32" placeholder="在此输入用户名" />
+        </view>
+      </view>
+
+      <view class="weui-cells__title">密码</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" maxlength="32" placeholder="在此输入密码" />
+        </view>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button formType="submit">提交</button>
+      <button formType="reset">Reset</button>
+    </view>
+  </form>

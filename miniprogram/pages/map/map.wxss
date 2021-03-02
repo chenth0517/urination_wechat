@@ -1,0 +1,8 @@
+/* miniprogram/pages/map/map.wxss */
+.mymap {
+  position: fixed;
+  right: 40rpx;
+  bottom: 40rpx;
+  width: 1000rpx;
+  height: 1800rpx;
+}
