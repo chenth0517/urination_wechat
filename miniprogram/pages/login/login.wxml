@@ -20,4 +20,5 @@
       <button formType="submit">提交</button>
       <button formType="reset">Reset</button>
     </view>
+    <p>{{result}}</p>
   </form>
